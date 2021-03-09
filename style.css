@@ -19,3 +19,11 @@ p {
  nav a {
      color: rgb(207, 57, 19);
  }
+ .box {
+     background:#beb96e;
+     display: inline;
+ }
+ .secondary-box {
+     background:#d127ac;
+     display: inline;
+ }
