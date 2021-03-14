@@ -1,11 +1,16 @@
 body {
     background-color: rgb(226, 202, 170);
+    margin: 20px 50px 20px 50px;
 }
 section {
     background-color: whitesmoke;
-}
+    padding: 10px 20px;
+    border: 3px solid black;
+    margin:20px;
+}  
 h1 {
-    color:rgb(128, 51, 0);
+    color:rgba(11, 3, 31, 0.877);
+    padding: 10px 10px 10px 20px;
 }
 p {
     color:#4f86ce;
@@ -17,7 +22,14 @@ p {
      color:rgb(21, 132, 223);
  }
  nav a {
+     background-color: blanchedalmond;
      color: rgb(207, 57, 19);
+     display: inline-block;
+     width: 180px;
+     height: 20px;
+     padding: 10px;
+     border: 3px solid black;
+     margin: 20px;
  }
  .box {
      background:#beb96e;
@@ -26,4 +38,9 @@ p {
  .secondary-box {
      background:#d127ac;
      display: inline;
+ }
+ .box-logo {
+     padding: 10px;
+     margin: 20px;
+     display: inline-block;
  }
