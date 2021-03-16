@@ -1,6 +1,7 @@
 body {
   background-color: rgb(226, 202, 170);
-  margin: 20px 50px 20px 50px;
+  margin: 20px 50px;
+  padding: 20px;
 }
 section {
   background-color: whitesmoke;
@@ -43,4 +44,48 @@ nav a {
   padding: 10px;
   margin: 20px;
   display: inline-block;
+}
+.header {
+margin:10px;
+}
+.header__box-logo {
+  padding: 5px 0px;
+  margin: 10px 0px 0px 0px;
+  display: inline-block; 
+}
+.header__box-logo--title {
+  padding: 10px;
+  margin: 10px;
+  display: block; 
+}
+.navigation {
+  
+}
+.navigation__position{
+  background-color: blanchedalmond;
+  color: rgb(207, 57, 19);
+  display: inline-block;
+  width: 180px;
+  height: 20px;
+  padding: 10px;
+  border: 3px solid black;
+  margin: 20px;
+}
+.section {
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  border: 3px solid black;
+  margin: 20px; 
+}
+.section__title {
+  color: #30aa6d;  
+}
+.section__article--points {
+  color: rgb(3, 11, 17);
+}
+.section__article--title {
+color: rgb(83, 5, 5);
+}
+.section__article--discription {
+  color: rgb(114, 28, 28); 
 }
