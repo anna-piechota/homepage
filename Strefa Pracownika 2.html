@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href='StrefaP2Style.css' rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <header class="page2">
+    <header class="page2" id="top">
     <nav class="navigation">
         <div class="navigation__page2">
+            <a class="navigation__position" href="Strona glowna.html">Strona Główna</a>   
         <a class="navigation__position" href="index.html">PI Engineer</a>
         <a class="navigation__position" href="Projekty-PIEngineer.html"
           >Projekty</a
@@ -24,16 +25,16 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="main-2">
         <header class="header">
             <h1>Strefa Pracownika</h1> 
         </header>
-        <section>
+        <section class="section-2">
             <h2>Planowanie urlopów</h2>
             <ul>
                 <li>Urlopy planujemy do 30 listopada danego roku na rok następny.</li>
                 <li>Jeśli mamy do wykorzystania urlop zaległy, planujemy go w pierwszej kolejności. Musi być zaplanowany do 30 marca.</li>
-                <li>W zależności od stażu pracy każdemu pracownikowi zatrudnionemu na pełen etat przysługuje  20 lub 26 dni w roku kalendarzowym.</li>
+                <li>W zależności od stażu pracy, każdemu pracownikowi zatrudnionemu na pełen etat przysługuje  20 lub 26 dni urlopu w roku kalendarzowym.</li>
                 <li> Pozostawiamy3/4 dni z urlopu niezaplanowane- będą mogły być wykorzystane jako urlop na żądanie.</li>
                 <li>Planujemy go tylko w dni robocze</li>
                 <li>Bez konsultacji z pracodawcą proszę nie planować jednorazowo więcej niż 10 dni urlopu- czyli dwa tygodnie wolnego</li>
@@ -53,35 +54,37 @@
             </ul>
             <h2>Szkolenia</h2>
             <ul>
-                <li><strong>BHP</strong></li>
+                 <li><strong>BHP</strong></li>
                 <p>Szkolenie jest planowane w dwóch terminach: 15 czerwiec 2021 oraz 15 grudzień 2021.</p>
                 <li><strong>Język Angielski</strong></li>
                 <p>Forma szkoleń - online indywidualne planowane od 1 kwietnia lub 1 września 2021 trwające trzy miesiące  dwa razy w tygodniu- terminy do uzgodnienia z lektorem.</p>
                 <li><strong >CAD-CAM</strong></li>
-                <p>W zależności od sytuacji epidemiologicznej szkolenie się odbędzie online lub stacjonarnie w Smardzewicach w hotelu "Kolporter". Będzie trwało dwa dni po osiem godzin z dwoma przerwami 30 minutowymi i trzecią godzinną - obiadową. Planowany termin stacjonarne : przyjazd 14 sierpień od godziny 17.00 do godziny 18.00; wyjazd-16 sierień 2021 do godziny 18.00. Szkolenie online, termin 16-17 sierpnia 2021</p>
+                <p>W zależności od sytuacji epidemiologicznej szkolenie się odbędzie online lub stacjonarnie w Smardzewicach w hotelu "Kolporter". Będzie trwało dwa dni po osiem godzin z dwoma przerwami 30 minutowymi i trzecią godzinną - obiadową.<br>
+                     Planowany termin stacjonarnie : przyjazd 14 sierpień od godziny 17.00 do godziny 18.00; wyjazd-16 sierień 2021 do godziny 18.00. <br>
+                     Szkolenie online termin: 16-17 sierpnia 2021.</p>
             </ul>
-            <p>Proszę o zapisywanie się na szkolenia z wyprzedzeniem dwutygodniowym</p>
+            <p>Proszę o zapisywanie się na szkolenia z wyprzedzeniem dwutygodniowym<./p>
 
 
         </section>
-    <table class="table">
-        <caption class="table__title"> URLOPY ROK 2021</caption>
-        <thead class="table__header">
+    <table>
+        <caption class=flex> URLOPY ROK 2021</caption>
+        <thead>
             <tr>
-                <th scope="col">Lp</th>
-                <th scope="col__name">Imię Nazwisko</th>
-                <th scope="col">I</th>
-                <th scope="col">II</th>
-                <th scope="col">III</th>
-                <th scope="col">IV</th>
-                <th scope="col">V</th>
-                <th scope="col">VI</th>
-                <th scope="col">VII</th>
-                <th scope="col">VIII</th>
-                <th scope="col">IX</th>
-                <th scope="col">X</th>
-                <th scope="col">XI</th>
-                <th scope="col">XII</th>
+                <th class="flex__column">Lp</th>
+                <th class="flex__column">Imię Nazwisko</th>
+                <th class="flex__column">I</th>
+                <th class="flex__column">II</th>
+                <th class="flex__column">III</th>
+                <th class="flex__column">IV</th>
+                <th class="flex__column">V</th>
+                <th class="flex__column">VI</th>
+                <th class="flex__column">VII</th>
+                <th class="flex__column">VIII</th>
+                <th class="flex__column">IX</th>
+                <th class="flex__column">X</th>
+                <th class="flex__column">XI</th>
+                <th class="flex__column">XII</th>
              </tr>
         </thead>
         <tbody>
@@ -93,6 +96,10 @@
         </tbody>
     </table>
     </main>
+    <footer class="footer">
+        <strong> Przemysław Piechota, PI Engineer, Polska</strong
+        ><a class="footer__link" href="#top">Przejdż do góry.</a>
+      </footer>
 
 </body>
 </html>

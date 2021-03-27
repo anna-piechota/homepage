@@ -67,7 +67,7 @@ body {
 }
 .navigation__position {
   background-color: whitesmoke;
-  border: 2px solid black;
+  border: 3px solid black;
   color: rgb(6, 35, 51);
   display: inline-block;
   font-weight: bold;
@@ -79,7 +79,7 @@ body {
 }
 .page {
   background-image: url(img/kontakt.jpg);
-  min-height: 500px;
+  min-height: 700px;
   background-position: center center;
 }
 .page2 {
@@ -88,23 +88,24 @@ body {
   background-position: center center;
 }
 .section {
-  background-color: whitesmoke;
+  background-color: white;
+  font-size: 18px;
   padding: 10px 20px;
   border: 3px solid black;
   margin: 20px;
   border-radius: 15px;
 }
 .section__title {
-  color: #0a3141;
+  color: black;
 }
 .section__article--points {
   color: rgb(3, 11, 17);
 }
 .section__article--title {
-  color: rgb(83, 5, 5);
+  color: black;
 }
 .section__article--discription {
-  color: rgb(114, 28, 28);
+  color: black;
 }
 .table {
   margin: auto;

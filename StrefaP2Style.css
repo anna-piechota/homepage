@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background: linear-gradient(
+    31deg,
+    rgba(3, 93, 141, 0.39) 36%,
+    rgba(142, 199, 228, 0.39) 95%
+  );
+  margin: 30px;
+  padding: 00px;
+}
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.footer__link {
+  color: rgb(36, 8, 196);
+  font-size: 16px;
+}
+.header {
+  color: rgba(42, 40, 46, 0.932);
+  font-family: "Franklin Gothic Medium";
+  font-size: 20px;
+  margin: 10px;
+}
+.main-2 {
+  max-width: 1000px;
+  margin: auto;
+}
+.navigation {
+}
+.navigation__page2 {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+.navigation__position {
+  background-color: whitesmoke;
+  border: 3px solid black;
+  color: rgb(6, 35, 51);
+  display: inline-block;
+  font-weight: bold;
+  font-size: 19px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.page2 {
+  background-image: url(img/Pracownicy.jpg);
+  min-height: 280px;
+  background-position: center center;
+}
+.section-2 {
+  border: 3px solid black;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 20px;
+  padding: 20px;
+}
+.flex {
+  margin: auto;
+  border: 3px solid black;
+  padding: 10px;
+  width: 1000px;
+  min-height: 20vh;
+  display:
+  flex-direction:
+}
+.flex__column {
+  align-items: center;
+  border: 3px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
