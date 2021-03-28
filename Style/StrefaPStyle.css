@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(180, 169, 150, 1) 18%,
+    rgba(73, 172, 198, 1) 59%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin: 0px 0px 30px 0px;
+  padding: 00px;
+}
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.footer__link {
+  color: darkgray;
+  font-size: 16px;
+  margin: 20px;
+}
+.header {
+  margin: 10px;
+}
+.header__box-logo--title {
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  display: block;
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+.navigation {
+}
+.navigation__page1 {
+  position: absolute;
+  left: 10%;
+  top: 36%;
+}
+.navigation__position {
+  background-color: whitesmoke;
+  border: 3px solid darkgrey;
+  color: rgb(6, 35, 51);
+  display: inline-block;
+  font-weight: bold;
+  font-size: 19px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.page1 {
+  background-image: url(../img/PiE.webp);
+  min-height: 320px;
+  background-position: center center;
+}
+.section {
+  background-color: rgba(245, 245, 245, 0.24);
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 3px solid darkgrey;
+  margin: 20px;
+  border-radius: 15px;
+}
+.section__title {
+  color: black;
+}
+.section__article--points {
+  color: rgb(3, 11, 17);
+}
+.section__article--title {
+  color: black;
+}
+.section__article--discription {
+  color: black;
+}

@@ -7,27 +7,24 @@ html {
   box-sizing: inherit;
 }
 body {
-  background: linear-gradient(
-    31deg,
-    rgba(3, 93, 141, 0.39) 36%,
-    rgba(142, 199, 228, 0.39) 95%
-  );
-  margin: 30px;
-  padding: 00px;
+  background: linear-gradient(180deg, rgba(60, 186, 218, 0.301) 5%, rgba(41, 158, 190, 0.575) 35%, rgba(255, 255, 255, 0.712) 100%);
+  margin: 0px 0px 30px 0px;
 }
 .footer {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 20px;
 }
 .footer__link {
-  color: rgb(36, 8, 196);
+  color: rgb(27, 112, 136);
   font-size: 16px;
+  margin: 20px;
 }
 .header {
   color: rgba(42, 40, 46, 0.932);
   font-family: "Franklin Gothic Medium";
   font-size: 20px;
-  margin: 10px;
+  margin: 50px 20px;
 }
 .main-2 {
   max-width: 1000px;
@@ -42,7 +39,7 @@ body {
 }
 .navigation__position {
   background-color: whitesmoke;
-  border: 3px solid black;
+  border: 3px solid rgb(27, 112, 136);
   color: rgb(6, 35, 51);
   display: inline-block;
   font-weight: bold;
@@ -53,12 +50,12 @@ body {
   text-decoration: none;
 }
 .page2 {
-  background-image: url(img/Pracownicy.jpg);
+  background-image: url(../img/Pracownicy.jpg);
   min-height: 280px;
   background-position: center center;
 }
 .section-2 {
-  border: 3px solid black;
+  border: 3px solid rgb(27, 112, 136);
   border-radius: 20px;
   font-size: 18px;
   margin: 20px;
