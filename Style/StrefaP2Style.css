@@ -16,7 +16,7 @@ body {
   padding: 20px;
 }
 .footer__link {
-  color: rgb(27, 112, 136);
+  color: rgb(13, 65, 80);
   font-size: 16px;
   margin: 20px;
 }
@@ -26,7 +26,7 @@ body {
   font-size: 20px;
   margin: 50px 20px;
 }
-.main-2 {
+.main {
   max-width: 1000px;
   margin: auto;
 }
@@ -39,7 +39,7 @@ body {
 }
 .navigation__position {
   background-color: whitesmoke;
-  border: 3px solid rgb(27, 112, 136);
+  border: 3px solid rgb(13, 65, 80);
   color: rgb(6, 35, 51);
   display: inline-block;
   font-weight: bold;
@@ -54,12 +54,23 @@ body {
   min-height: 280px;
   background-position: center center;
 }
-.section-2 {
+.section {
   border: 3px solid rgb(27, 112, 136);
   border-radius: 20px;
   font-size: 18px;
   margin: 20px;
   padding: 20px;
+}
+.section__form {
+  background-color: rgb(171, 216, 224);
+  border: 3px solid rgb(21, 86, 97);
+  color: rgb(21, 86, 97); 
+  font-weight: bold;
+  font-size: 17px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  text-decoration: none;
 }
 .flex {
   margin: auto;

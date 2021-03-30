@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Style/normalize.css" rel="stylesheet" type="text/css" />
+    <link href='Style/formularzStyle.css' rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+          <a class="navigation__position" href="Strona glowna.html">Strona Główna</a>
+          <a class="navigation__position" href="index.html">PI Engineer</a>
+          <a class="navigation__position" href="Projekty-PIEngineer.html"
+            >Projekty</a
+          >
+          <a class="navigation__position" href="Strefa-Pracownika.html"
+            >Strafa nie tylko Pracownika</a
+          >
+          <a class="navigation__position" href="Strefa Pracownika 2.html"
+            >Strefa pracownika</a
+          >
+          <a class="navigation__position" href="Kontakt.html"> Kontakt</a>
+        </nav>
+      </header>
+      <main class="main">
+        <header>
+          <h1>Formularz szkolenia językowego</h1>
+        </header> 
+        <form class="form">
+            <p class="form__item">
+                <label class="form__item--name" for="firstName">Imię:
+                <input requiered type="text" placeholder="Wpisz swoje imię" id="firstName" name="firstName">
+            </label>
+            </p>
+            <p class="form__item">
+                <label class="form__item--name" for="secendName">Nazwisko:
+                <input requiered type="text" placeholder="Wpisz swoje nazwisko" id="secendName" name="secendName">
+            </label>
+            </p>
+            <p class="form__item">
+                <label class="form__item--name" for="phoneNumber">Numer telefonu:
+                <input requiered type="number" placeholder="Wpisz swój numer telefonu" id="phoneNumber" name="phoneNumber">
+            </label>
+            </p>
+            <p class="form__item">
+                <label class="form__item--name" for="email">E-mail:
+                <input requiered type="email" placeholder="Wpisz swój e-mail" id="email" name="email">
+            </label>
+            </p>
+            <fieldset class="form">
+                <legend class="form__item--title">Kurs Języka</legend>
+            <p>
+                <label class="form__item--name">
+                <input class="form__item--line" name="language" type="radio">Angielskiego
+            </label>
+            </p>
+            <p>
+                <label class="form__item--name"> 
+                <input class="form__item--line" name="language" type="radio">Niemieckiego
+            </label>
+            </p>
+            <p>
+                <label class="form__item--name">
+                <input class="form__item--line" name="language" type="radio">Hiszpańskiego
+            </label>
+            </p>
+        </fieldset>
+        <fieldset class="form">
+            <legend class="form__item--title">Rodzaj kursu</legend>
+            <p>
+                <label class="form__item--name">
+                <input class="form__item--line" name="course" type="radio">Online
+            </label>
+            </p>
+            <p>
+                <label class="form__item--name">
+                <input class="form__item--line"  name="course" type="radio">Stacjonarny
+            </label>
+            </p>
+        </fieldset>
+        <fieldset class="form">
+            <legend class="form__item--title">Stopień zaawansowania</legend>
+            <p>
+                <label class="form__item--name">
+                <input class="form__item--line" name="stage" type="radio" value="bigginer">Dla początkujących
+            </label>
+            </p>
+            <p>
+                <label class="form__item--name">
+                <input class="form__item--line" name="stage" type="radio" value="intermediate">Dla średnio zaawansowanych
+            </label>
+            </p>
+            <p>
+                <label class="form__item--name">
+                <input class="form__item--line" name="stage" type="radio" value="upperintermediate">Dla zaawansowanych
+            </label>
+            </p>
+        </fieldset>
+        <p class="form"> 
+            <label class="form__item--name" for="term">Termin szkolenia:</label>
+            <select class="form__item--one">
+                <option class="form__item--name">15 maj - 15 sierpień 2021</option>
+                <option class="form__item--name">15 sierpień - 15 listopad 2021</option>
+                <opionn class="form__item--name">15 wrzesień - 15 grudzień 2021</opion>
+            </select>
+        
+        </p>
+        <p class="form">
+            <label class="form__item--name" for="attention">Uwagi:</label>
+            <textarea class="form__item--two" id="attention" name="attention"></textarea>
+        </p>
+    </fieldset>
+    <p>
+        <label class="form__item--name">
+            <input class="form__item--line name="agreement" type="checkbox">Zgadzam się na przetwarzanie danych dla celów kursu.
+        </label> 
+        </form> 
+        </main>
+</body>
+</html>

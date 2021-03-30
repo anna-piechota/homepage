@@ -51,7 +51,7 @@ body {
 }
 .navigation__position {
   background-color: whitesmoke;
-  border: 3px solid rgba(27, 51, 187, 0.644);
+  border:3px solid rgb(131, 125, 106);
   color: rgb(6, 35, 51);
   display: inline-block;
   font-weight: bold;
@@ -68,10 +68,10 @@ body {
   background-size: cover;
 }
 .section {
-  background-color: rgba(245, 245, 245, 0.377);
+  background-color rgba(245, 245, 245, 0.377);
   font-size: 18px;
   padding: 10px 20px;
-  border: 3px solid rgba(27, 51, 187, 0.315);
+  border: 3px solid rgb(131, 125, 106);
   margin: 20px;
   border-radius: 15px;
 }
